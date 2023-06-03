@@ -15,9 +15,7 @@ function App() {
   return (
     <>
       <Form onUsuario = {handleUsuario}/>
-      {
-        usuario ? <Card nombre={usuario.nombre} pelicula={usuario.pelicula}/> : null
-      }
+      <Card nombre={usuario.nombre} pelicula={usuario.pelicula}/>
     </>
   )
 }
