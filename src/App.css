@@ -51,6 +51,13 @@ button{
   margin: 5px;
 }
 
+#color{
+  width: 100px;
+  height:50px;
+  padding: 0px;
+  border: 1px solid #292929;
+}
+
 .error{
   background-color: #292727;
   color: red;

@@ -8,14 +8,14 @@ function App() {
 
   const [usuario, setUsuario] = useState({});
 
-  function handleUsuario (nombre, pelicula){
-    setUsuario({nombre, pelicula});
+  function handleUsuario (nombre, pelicula, color){
+    setUsuario({nombre, pelicula, color});
   }
 
   return (
     <>
       <Form onUsuario = {handleUsuario}/>
-      <Card nombre={usuario.nombre} pelicula={usuario.pelicula}/>
+      <Card nombre={usuario.nombre} pelicula={usuario.pelicula} color={usuario.color}/>
     </>
   )
 }
